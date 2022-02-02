@@ -6,6 +6,8 @@
 - Project architecture
 - Adaptive layout
 - Custom Hooks for use Local Storage, Dark Mode, Locale, Scroll
+- Dark Mode
 - Localization
+- Save state to Local Storage
 
 #### [Deployed project link](https://dimaxizisd-21.github.io/react_cv/)
