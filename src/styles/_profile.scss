@@ -1,0 +1,5 @@
+.profile {
+    &-description {
+        @apply dark:text-dark-text text-center lg:text-left text-[.938rem];
+    }
+}

@@ -1,0 +1,18 @@
+.main {
+    &-container {
+        @apply lg:max-w-[968px] lg:container lg:mx-auto mx-6 print:m-0 print:p-0;
+        -webkit-print-color-adjust:exact;
+    }
+
+    &-wrapper {
+        @apply lg:grid grid-cols-[.5fr_1fr] lg:shadow-[0_0_8px_rgb(13_12_12/15%)] print:grid print:grid-cols-[.5fr_1fr];
+    }
+
+    &-left {
+        @apply lg:p-[0_1.5rem] lg:bg-[#F0EFEF] print:bg-[#F0EFEF] lg:dark:bg-dark-bg-1 print:p-[0_1.5rem];
+    }   
+
+    &-right {
+        @apply lg:p-[0_1.5rem] lg:bg-[#FAFAFA] print:bg-[#FAFAFA] lg:dark:bg-dark-bg-2 print:p-[0_1.5rem];
+    }
+}

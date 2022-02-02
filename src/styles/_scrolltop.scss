@@ -1,0 +1,11 @@
+.scrolltop {
+    @apply sm:visible lg:invisible fixed right-4 bottom-[-20%] flex items-center p-[0.3rem] bg-[#F0EFEF] dark:bg-dark-bg-1 rounded-[0.4rem] z-10 duration-300 print:hidden;
+
+    &-icon {
+        @apply text-[1.2rem] text-color-text dark:text-dark-text;
+    }
+
+    &-active {
+        @apply bottom-20;
+    }
+}

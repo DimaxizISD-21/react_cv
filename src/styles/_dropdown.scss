@@ -1,0 +1,11 @@
+.dropdown {
+    @apply absolute -right-2 top-[4.2rem] mt-6 py-2 bg-neutral-100 dark:bg-dark-bg-1 rounded-md shadow-xl z-20;
+
+    &-item {
+        @apply block px-4 py-2 text-sm capitalize text-gray-700 dark:text-dark-text dark:hover:bg-color-light-text hover:bg-[#F0EFEF] cursor-pointer;
+
+        &.active {
+            @apply bg-neutral-300 dark:text-dark-text dark:bg-color-light-text;
+        }
+    }
+}

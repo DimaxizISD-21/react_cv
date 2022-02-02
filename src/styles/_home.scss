@@ -1,0 +1,35 @@
+.home {
+    @apply relative;
+
+    &-wrapper {
+        @apply grid gap-12 lg:gap-6 py-[1.5rem];
+    }
+
+    &-data {
+        @apply text-center grid gap-[0.5rem];
+    }
+
+    &-photo{
+        @apply h-[120px] w-auto rounded-full justify-self-center mb-[.5rem];
+    }
+
+    &-title {
+        @apply dark:text-dark-text-title text-color-title text-2xl font-bold;
+    }
+
+    &-profession {
+        @apply dark:text-dark-text-title text-color-title text-[.938rem] mb-[.5rem] font-medium;
+    }
+
+    &-address {
+        @apply grid gap-[1rem] dark:text-dark-text;
+    }
+
+    &-information {
+        @apply text-sm flex items-center;
+    }
+
+    &-icon {
+        @apply text-[1.2rem] mr-[0.25rem];
+    }
+}

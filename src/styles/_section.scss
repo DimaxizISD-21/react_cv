@@ -1,0 +1,7 @@
+.section {
+    @apply p-[1.5rem_0] overflow-hidden;
+
+    &-title {
+        @apply dark:text-dark-text-title text-[1.25rem] uppercase text-center lg:text-left tracking-[.35rem] mb-6 font-semibold;
+    }
+}

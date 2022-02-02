@@ -1,0 +1,13 @@
+.social {
+    &-container {
+        @apply grid grid-cols-[repeat(3,1fr)] gap-4;
+    }
+
+    &-link {
+        @apply inline-flex items-center justify-center dark:text-dark-text text-color-text text-[.875rem];
+    }
+
+    &-icon {
+        @apply text-[1.2rem] mr-[0.25rem];
+    }
+}

@@ -1,0 +1,13 @@
+.languages {
+    &-content {
+        @apply grid grid-cols-[repeat(2,1fr)] gap-0 lg:grid-cols-[repeat(3,max-content)] lg:gap-11;
+    }
+
+    &-name {
+        @apply flex items-center mb-[.5rem] dark:text-dark-text;
+    }
+
+    &-circle {
+        @apply inline-block w-[5px] h-[5px] dark:bg-dark-text bg-color-text rounded-full mr-3;
+    }
+}

@@ -1,0 +1,34 @@
+.experience {
+    &-container {
+        @apply grid gap-6;
+    }
+
+    &-content {
+        @apply flex;
+    }
+
+    &-time {
+        @apply pr-4;
+    }
+
+    &-rounder {
+        @apply relative block w-4 h-4 bg-color-light-text rounded-full mt-1;
+    }
+
+    &-line {
+        @apply block w-[2px] h-[110%] bg-color-light-text transform translate-x-[7px];
+        // --tw-transform: translate(7px, 0);
+    }
+
+    &-data {
+        @apply grid gap-2 dark:text-dark-text;
+    }
+
+    &-title {
+        @apply dark:text-dark-text-title text-[1rem] font-medium;
+    }
+
+    &-company {
+        @apply text-[0.875rem] dark:text-dark-text-title;
+    }
+}

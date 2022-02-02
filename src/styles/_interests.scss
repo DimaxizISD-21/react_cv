@@ -1,0 +1,21 @@
+.interests {
+    &-container {
+        @apply grid grid-cols-[repeat(3,1fr)] gap-[1.5rem] lg:grid-cols-[repeat(4,max-content)] lg:gap-11;
+    }
+
+    &-content {
+        @apply flex flex-col items-center;
+    }
+
+    &-name {
+        @apply text-center dark:text-dark-text;
+    }
+
+    &-icon {
+        @apply text-[1.5rem] text-color-light-text mb-1;
+    }
+
+    &-circle {
+        @apply inline-block w-[5px] h-[5px] bg-color-text rounded-full mr-3;
+    }
+}

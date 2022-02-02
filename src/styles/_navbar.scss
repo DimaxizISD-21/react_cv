@@ -1,0 +1,47 @@
+.header {
+    @apply dark:bg-[#2b2b2b] bg-white w-full fixed bottom-0 left-0 z-[100] shadow-inner transition duration-300;
+
+    &-nav {
+        @apply h-[3rem] flex justify-between items-center lg:container lg:mx-auto mx-6 lg:hidden print:hidden;
+
+        &-logo {
+            @apply dark:text-dark-text text-[.938rem];
+        }
+
+        &-menu {
+            @apply dark:bg-[#2b2b2b] bg-white bottom-[-100%] fixed left-0 w-full p-[2rem_1.5rem] rounded-xl z-[100] shadow-inner duration-300;
+
+            &.active {
+                @apply bottom-[3rem];
+            }
+        }
+
+        &-list {
+            @apply grid grid-cols-[repeat(2,1fr)] gap-[1rem_0.5rem] text-center text-[.813rem];
+        }
+
+        &-link {
+            @apply flex flex-col dark:text-color-light-text;
+
+            &.active i { 
+                @apply text-color-title dark:text-dark-text;
+            }
+
+            &.active { 
+                @apply dark:text-dark-text;
+            }
+        }
+
+        &-icon {
+            @apply text-[1.2rem] mb-[0.5rem] text-color-light-text;
+        }
+
+        &-toggle {
+            @apply text-[1.2rem] font-medium cursor-pointer;
+
+            &-icon {
+                @apply dark:text-dark-text text-color-title;
+            }
+        }
+    }
+}

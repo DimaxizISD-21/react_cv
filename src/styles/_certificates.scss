@@ -1,0 +1,13 @@
+.certificates {
+    &-container {
+        @apply grid gap-6;
+    }
+
+    &-title {
+        @apply dark:text-dark-text-title text-[1rem] mb-2;
+    }
+
+    &-description {
+        @apply dark:text-dark-text;
+    }
+}

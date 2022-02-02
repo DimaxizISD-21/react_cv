@@ -1,0 +1,21 @@
+.toggle {
+	&-theme {
+		@apply text-[1.2rem] absolute right-0 top-[2.2rem] cursor-pointer dark:text-dark-text print:hidden;
+	}
+
+	&-language {
+		@apply z-10 flex rounded-md focus:outline-none bg-transparent h-[19px] w-[19px] absolute right-6 top-[4.2rem] cursor-pointer print:hidden;
+
+		&-current {
+			@apply text-sm dark:text-dark-text;
+		}
+
+		&-arrow svg {
+			@apply h-[19px] w-[19px] text-gray-800 dark:text-dark-text;
+		}
+	}
+
+	&-download {
+		@apply text-[1.2rem] dark:text-dark-text absolute right-0 top-[6.2rem] cursor-pointer print:hidden;
+	}
+}
