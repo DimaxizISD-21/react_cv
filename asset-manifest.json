@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_cv/static/css/main.b322a0c6.css",
+    "main.js": "/react_cv/static/js/main.845404a8.js",
+    "static/media/logo.jpg": "/react_cv/static/media/logo.987fc73314e9ebd15b90.jpg",
+    "static/media/Poppins-Regular.woff": "/react_cv/static/media/Poppins-Regular.7d50cfcb7fdf5bd337a0.woff",
+    "static/media/Poppins-Medium.woff": "/react_cv/static/media/Poppins-Medium.feec26f7a410bc253f72.woff",
+    "static/media/Poppins-SemiBold.woff": "/react_cv/static/media/Poppins-SemiBold.b5329103e193298fe15e.woff",
+    "index.html": "/react_cv/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b322a0c6.css",
+    "static/js/main.845404a8.js"
+  ]
+}
